@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registrationformRGBRGBAHEXADECIMAL.css">
+</head>
+<body>
+
+
+<h1>Register</h1>
+
+<form>
+
+<p>
+<label for="First">First Name: </label> 
+<input id="last" type="text" name="First" value="" placeholder="Leye" required>
+<label for="Last">Last Name: </label>
+<input id="last" type="text" name="Last" value="" placeholder="Dayo" required>
+</p>
+
+<div>
+<label for="Male">Male: </label>
+<input id="Male" type="radio" name="Gender" value="Male">
+<label for="Female">Female: </label>
+<input id="Female" type="radio" name="Gender" value="Female">
+<label for="Other">Others: </label>
+<input id="Other" type="radio" name="Gender" value="Other">
+</div>
+
+<div> 
+<label> Email: <input type="Email" name="" placeholder="your email" value="" required> </label> 
+
+<label> 
+Password: 
+<input type="password" name="password" value="" required pattern=".{5,10}" title="5 to 10 characters"> 
+</label>
+
+</div>
+
+<div>
+<label> Birthday
+<select>
+	<option>Month</option>
+	<option>January</option>
+	<option>February</option>
+	<option>March</option>
+	<option>April</option>
+	<option>May</option>
+	<option>June</option>
+	<option>July</option>
+	<option>August</option>
+	<option>September</option>
+	<option>October</option>
+	<option>November</option>
+	<option>December</option>
+</select>
+
+<select month="day">
+	<option>Day</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+</select>
+
+<select month="year">
+	<option>Year</option>
+	<option>1999</option>
+	<option>2000</option>
+	<option>2001</option>
+	<option>2002</option>
+	<option>2003</option>
+	<option>2004</option>
+	<option>2005</option>
+	<option>2006</option>
+	<option>2007</option>
+	<option>2008</option>
+	<option>2009</option>
+	<option>2010</option>
+</select>
+</label>
+
+</div>
+
+<div> 
+<label for="Agreed">I agree to the terms and conditions <input type="checkbox" id="agreed" name="Terms and conditions"> </label>
+</div>
+<p><button>Submit</button></p>
+
+<p>or</p>
+
+<input type="Submit" name="Submit">
+
+</form>
+</body>
+</html>
